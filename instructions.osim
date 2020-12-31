@@ -1,0 +1,24 @@
+/* NeutronOS can be downloaded using the OS integrated manager (OSIM), this is the instructions.osim file which gives all of the instructions on how
+ * to download this */
+include osim
+
+name: NeutronOS
+author: VisionizerTechnologies
+
+
+/* VARIABLE DECLARATIONS */
+downloadPath = "https://github.com/Visionizer/NeutronOS"
+
+/* STEPS */
+step download():
+    /* download(downloadPath, int) Not working since no releases :( */
+    cmd("git clone " + downloadPath)
+
+
+
+
+/* THE ENTRY POINT */
+step main():
+    /* FIST (!!) */
+    initialize(name, author)
+    download()
