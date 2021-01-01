@@ -2,10 +2,6 @@
  * to download this */
 include osim
 
-name: NeutronOS
-author: VisionizerTechnologies
-
-
 /* VARIABLE DECLARATIONS */
 downloadPath = "https://github.com/Visionizer/NeutronOS"
 
@@ -16,7 +12,7 @@ step download():
 
 
 
-
+@Override
 /* THE ENTRY POINT */
 step main():
     /* FIST (!!) */

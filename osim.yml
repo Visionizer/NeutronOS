@@ -1,0 +1,6 @@
+name: NeutronOS
+author: VisionizerTechnologies
+icon: null
+version: 0.1
+instructions: osim/instructions.osim
+destkop: osim/destkop.osim
