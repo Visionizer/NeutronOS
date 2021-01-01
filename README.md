@@ -9,4 +9,5 @@ OSIM is the OS integrated package manager and is being automatically included in
 ### STYLEGUIDE
 
 You will learn how to name your files, classes and more when contributing to NeutronOS.
+
 [Styleguide](docs/STYLEGUIDE.md)
