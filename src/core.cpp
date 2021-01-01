@@ -21,6 +21,7 @@
  *   SOFTWARE.
  */
 using namespace std;
+#include "core.hpp"
 #include <iostream>
 
 int main()
